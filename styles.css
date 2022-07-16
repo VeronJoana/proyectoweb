@@ -4,8 +4,6 @@ body {
     box-sizing: border-box;
 }
 
-
-
 .titulo2 {
     padding-top: 20px;
     font-family: 'Mea Culpa', cursive;
@@ -33,37 +31,27 @@ body {
 
 }
 
-
 .navbar-expand-lg {
     background-color: orange;
 }
 
-
 .logo {
     width: 70px;
-
-
 }
 
 a {
     text-decoration: none;
 }
 
-
 ul {
     list-style: none;
     font-size: 18px;
-
-
 }
 
 .navbar-expand {
-
-
     padding: 3rem 2rem;
     height: 0rem;
     min-height: 12vh;
-
 }
 
 .titulo-imagen {
@@ -83,32 +71,29 @@ ul {
     display: block;
     justify-content: center;
     margin: auto;
+}
 
+.container-form {
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-fluid a {
     text-decoration: none;
 }
 
-
 .card-img-top {
     width: 800px;
     height: 380px;
 }
 
-.card-img-nos {
-    width: 1283px;
-    height: 550px;
-}
-
 .card-group {
     margin-top: 50px;
-
 }
 
 .card {
     padding: 5px;
-
 }
 
 .card {
@@ -126,7 +111,6 @@ ul {
 
 .fa-bars {
     font-size: 20px;
-
 }
 
 .card-body {
@@ -150,13 +134,14 @@ ul {
     margin-left: 500px;
 }
 
-.nosotros {
+.nosotros h1 {
     font-family: 'Mea Culpa', cursive;
     font-family: 'Oswald', sans-serif;
     font-family: 'Parisienne', cursive;
     color: black;
-    font-size: 80px;
+    font-size: 60px;
     margin-left: 500px;
+    justify-content: flex;
 }
 
 .inputs {
@@ -171,9 +156,8 @@ ul {
 footer {
     width: 100%;
     background-color: wheat;
-    ;
     min-height: 250px;
-    padding: 10px 0px 25px 0px;
+    padding: 5px 10px 5px 10px;
     margin-top: 15px;
 }
 
@@ -182,9 +166,14 @@ footer {
     margin-bottom: 20px;
 }
 
+h5 {
+    padding: 5px;
+}
+
 footer p {
-    font-size: 13px;
+    font-size: 15px;
     color: black;
+    padding: 5px 10px 5px 10px;
     padding-bottom: 0px;
     margin-bottom: 8px;
 }
